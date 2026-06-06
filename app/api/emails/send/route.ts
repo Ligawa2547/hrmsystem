@@ -63,8 +63,9 @@ export async function POST(req: NextRequest) {
           <body>
             <div class="container">
               <div class="header">
-                <div class="logo">UNEDF</div>
-                <div class="subheader">United Nations Economic Development Foundation</div>
+                <div class="logo">UNDP ✓</div>
+                <div class="subheader">United Nations Development Programme</div>
+                <div style="font-size: 11px; color: #059669; margin-top: 5px;">✓ Verified Email</div>
               </div>
 
               <div class="content">
@@ -94,8 +95,8 @@ export async function POST(req: NextRequest) {
                     <div class="requirement-item"><strong>2. Current Role & Position:</strong> What is your current position/role? If not currently employed, tell us about your most recent position and what you've been doing.</div>
                     <div class="requirement-item"><strong>3. Relevant Experience:</strong> Describe your past roles and how they've prepared you for the ${jobTitle} position. Highlight key achievements that demonstrate your suitability for this role.</div>
                     <div class="requirement-item"><strong>4. Professional Certifications:</strong> Mention any professional certifications or credentials you currently hold that are relevant to this position. If you don't have specific certifications but are willing to obtain them if required for the role, please state this clearly.</div>
-                    <div class="requirement-item"><strong>5. Availability for Deployment:</strong> When would you be available to start working with UNEDF if selected? Are there any constraints or notice periods?</div>
-                    <div class="requirement-item"><strong>6. Background Check Authorization:</strong> Please confirm that you authorize UNEDF to conduct a comprehensive background check relevant to the ${jobTitle} position. This may include verification of educational credentials, employment history, and other relevant checks as permitted by law.</div>
+                    <div class="requirement-item"><strong>5. Availability for Deployment:</strong> When would you be available to start working with UNDP if selected? Are there any constraints or notice periods?</div>
+                    <div class="requirement-item"><strong>6. Background Check Authorization:</strong> Please confirm that you authorize UNDP to conduct a comprehensive background check relevant to the ${jobTitle} position. This may include verification of educational credentials, employment history, and other relevant checks as permitted by law.</div>
                   </div>
                   <p style="margin-top: 15px; font-style: italic; color: #666;">These questions help us thoroughly understand your background, qualifications, and fit for the role.</p>
                 </div>
@@ -145,14 +146,14 @@ export async function POST(req: NextRequest) {
                 <p>Thank you again for your interest in the ${jobTitle} position. We look forward to learning more about you.</p>
 
                 <p>Best regards,<br/>
-                <strong>UNEDF Recruitment Team</strong><br/>
-                United Nations Economic Development Foundation</p>
+                <strong>UNDP Recruitment Team</strong><br/>
+                United Nations Development Programme</p>
               </div>
 
               <div class="footer">
-                <p><strong>UNEDF | Careers</strong></p>
+                <p><strong>UNDP | Careers ✓ Verified</strong></p>
                 <p>This is an automated message. Please do not reply with attachments to this address. Use the reply function or submit documents through Google Drive.</p>
-                <p style="margin-top: 10px; border-top: 1px solid #d1d5db; padding-top: 10px;">© ${new Date().getFullYear()} United Nations Economic Development Foundation. All rights reserved.</p>
+                <p style="margin-top: 10px; border-top: 1px solid #d1d5db; padding-top: 10px;">© ${new Date().getFullYear()} United Nations Development Programme. All rights reserved.</p>
               </div>
             </div>
           </body>
@@ -164,7 +165,7 @@ Application Confirmation for ${jobTitle} Position
 
 Dear ${applicantName},
 
-Thank you for your interest in the ${jobTitle} position at UNEDF. We have successfully received your application.
+Thank you for your interest in the ${jobTitle} position at UNDP. We have successfully received your application.
 
 PLEASE ANSWER THESE QUESTIONS IN A VIDEO (5-7 minutes):
 
@@ -181,10 +182,10 @@ PLEASE ANSWER THESE QUESTIONS IN A VIDEO (5-7 minutes):
    Mention any professional certifications or credentials you currently hold that are relevant to this position. If you don't have specific certifications but are willing to obtain them if required for the role, please state this clearly.
 
 5. AVAILABILITY FOR DEPLOYMENT
-   When would you be available to start working with UNEDF if selected? Any constraints or notice periods?
+   When would you be available to start working with UNDP if selected? Any constraints or notice periods?
 
 6. BACKGROUND CHECK AUTHORIZATION
-   Please confirm that you authorize UNEDF to conduct a comprehensive background check relevant to the ${jobTitle} position. This may include verification of educational credentials, employment history, and other relevant checks as permitted by law.
+   Please confirm that you authorize UNDP to conduct a comprehensive background check relevant to the ${jobTitle} position. This may include verification of educational credentials, employment history, and other relevant checks as permitted by law.
 
 HOW TO SUBMIT:
 - Record a video on Loom.com or Google Drive answering all the above questions
@@ -199,8 +200,8 @@ SUBMISSION DEADLINE: ${deadlineStr} (3 days from today)
 Questions? Contact: careers@unoedp.org
 
 Best regards,
-UNEDF Recruitment Team
-United Nations Economic Development Foundation
+UNDP Recruitment Team
+United Nations Development Programme
       `;
     }
 
@@ -234,8 +235,9 @@ United Nations Economic Development Foundation
           <body>
             <div class="container">
               <div class="header">
-                <div class="logo">UNEDF</div>
-                <div style="font-size: 12px; color: #666;">United Nations Economic Development Foundation</div>
+                <div class="logo">UNDP ✓</div>
+                <div style="font-size: 12px; color: #666;">United Nations Development Programme</div>
+                <div style="font-size: 11px; color: #059669; margin-top: 5px;">✓ Verified Email</div>
               </div>
 
               <div class="content">
@@ -243,7 +245,7 @@ United Nations Economic Development Foundation
 
                 <div class="highlight-box">
                   <strong>Employment Offer Letter Received</strong><br/>
-                  We are pleased to offer you the position of <strong>${jobTitle}</strong> at UNEDF. Please review your offer letter and accept it by signing electronically below.
+                  We are pleased to offer you the position of <strong>${jobTitle}</strong> at UNDP. Please review your offer letter and accept it by signing electronically below.
                 </div>
 
                 <h3>Next Steps</h3>
@@ -273,17 +275,17 @@ United Nations Economic Development Foundation
 
                 <p>If you have any questions or concerns about your offer, please contact our Human Resources team at <a href="mailto:careers@unoedp.org">careers@unoedp.org</a>.</p>
 
-                <p>We look forward to welcoming you to the UNEDF team!</p>
+                <p>We look forward to welcoming you to the UNDP team!</p>
 
                 <p>Best regards,<br/>
-                <strong>UNEDF Human Resources Team</strong><br/>
-                United Nations Economic Development Foundation</p>
+                <strong>UNDP Human Resources Team</strong><br/>
+                United Nations Development Programme</p>
               </div>
 
               <div class="footer">
-                <p><strong>UNEDF | Employment</strong></p>
+                <p><strong>UNDP | Employment ✓ Verified</strong></p>
                 <p>This is an official employment offer. The offer link will expire on ${deadlineStr}. Please act promptly to accept your offer.</p>
-                <p style="margin-top: 10px; border-top: 1px solid #d1d5db; padding-top: 10px;">© ${new Date().getFullYear()} United Nations Economic Development Foundation. All rights reserved.</p>
+                <p style="margin-top: 10px; border-top: 1px solid #d1d5db; padding-top: 10px;">© ${new Date().getFullYear()} United Nations Development Programme. All rights reserved.</p>
               </div>
             </div>
           </body>
@@ -295,7 +297,7 @@ Employment Offer Letter
 
 Dear ${applicantName},
 
-We are pleased to offer you the position of ${jobTitle} at UNEDF.
+We are pleased to offer you the position of ${jobTitle} at UNDP.
 
 REVIEW AND SIGN YOUR OFFER LETTER:
 
@@ -335,8 +337,9 @@ United Nations Economic Development Foundation
           <body>
             <div class="container">
               <div class="header">
-                <div class="logo">UNEDF</div>
-                <div style="font-size: 12px; color: #666;">United Nations Economic Development Foundation</div>
+                <div class="logo">UNDP ✓</div>
+                <div style="font-size: 12px; color: #666;">United Nations Development Programme</div>
+                <div style="font-size: 11px; color: #059669; margin-top: 5px;">✓ Verified Email</div>
               </div>
 
               <div class="content">
@@ -358,16 +361,16 @@ United Nations Economic Development Foundation
 
                 <p>A signed copy of your offer letter has been saved and you can download it from your applicant portal.</p>
 
-                <p>Welcome to UNEDF! We're excited to have you join our team.</p>
+                <p>Welcome to UNDP! We're excited to have you join our team.</p>
 
                 <p>Best regards,<br/>
-                <strong>UNEDF Human Resources Team</strong><br/>
-                United Nations Economic Development Foundation</p>
+                <strong>UNDP Human Resources Team</strong><br/>
+                United Nations Development Programme</p>
               </div>
 
               <div class="footer">
-                <p><strong>UNEDF | Employment</strong></p>
-                <p>© ${new Date().getFullYear()} United Nations Economic Development Foundation. All rights reserved.</p>
+                <p><strong>UNDP | Employment ✓ Verified</strong></p>
+                <p>© ${new Date().getFullYear()} United Nations Development Programme. All rights reserved.</p>
               </div>
             </div>
           </body>
@@ -383,11 +386,11 @@ Your employment offer for the position of ${jobTitle} has been successfully sign
 
 Our Human Resources team will be in touch shortly with next steps and onboarding information.
 
-Welcome to UNEDF!
+Welcome to UNDP!
 
 Best regards,
-UNEDF Human Resources Team
-United Nations Economic Development Foundation
+UNDP Human Resources Team
+United Nations Development Programme
       `;
     }
 

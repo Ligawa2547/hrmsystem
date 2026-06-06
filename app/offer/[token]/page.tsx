@@ -375,7 +375,7 @@ export default function OfferSignaturePage() {
         <Card className="w-full max-w-md">
           <CardContent className="pt-6">
             <p className="text-red-600 font-semibold mb-4">{error}</p>
-            <p className="text-muted-foreground mb-6">Please contact UNEDF HR at careers@unoedp.org if you need assistance.</p>
+            <p className="text-muted-foreground mb-6">Please contact UNDP HR at careers@unoedp.org if you need assistance.</p>
             <Button className="w-full" variant="outline">Back to Home</Button>
           </CardContent>
         </Card>
@@ -394,7 +394,7 @@ export default function OfferSignaturePage() {
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-white font-bold">UNEDF</span>
+              <span className="text-white font-bold">UNDP ✓</span>
             </div>
             <div>
               <h1 className="text-3xl font-bold">Employment Offer Letter</h1>
