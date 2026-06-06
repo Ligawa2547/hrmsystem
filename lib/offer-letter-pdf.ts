@@ -105,7 +105,7 @@ export function generateOfferLetterHTML(data: OfferLetterData, isSigned: boolean
         SSAFE and IFAK 2.0 Requirement
       </h3>
       <p style="font-size: 11px; line-height: 1.6; color: #333; margin-bottom: 10px;">
-        All UNEDF staff members are required to complete and maintain the following safety training certifications:
+        All UNDP staff members are required to complete and maintain the following safety training certifications:
       </p>
       <ul style="font-size: 11px; line-height: 1.8; color: #333; margin-left: 20px; margin-bottom: 15px;">
         <li><strong>SSAFE (Staff Safety Awareness and Familiarization Education):</strong> An online induction training mandatory for all UN staff.</li>
@@ -117,7 +117,7 @@ export function generateOfferLetterHTML(data: OfferLetterData, isSigned: boolean
       <ul style="font-size: 11px; line-height: 1.8; color: #333; margin-left: 20px; margin-bottom: 15px;">
         <li><strong>IICAR</strong> (www.iicar.org) - International Institute of Career Advancement and Recognition</li>
         <li><strong>UNSSC</strong> (www.unssc.org) - United Nations System Staff College</li>
-        <li>Other accredited first aid certification providers approved by UNEDF</li>
+        <li>Other accredited first aid certification providers approved by UNDP</li>
       </ul>
       <p style="font-size: 11px; line-height: 1.6; color: #333;">
         Proof of completion must be submitted to Human Resources no later than <strong>${formattedDeadline}</strong> — the same deadline as the acceptance of this offer. Failure to provide proof of completion by this date may result in withdrawal of this offer or suspension of employment benefits.
@@ -432,7 +432,7 @@ export function generateOfferLetterHTML(data: OfferLetterData, isSigned: boolean
           <div class="salutation">Dear ${data.applicantName},</div>
 
           <div class="opening-paragraph">
-            <p>We are pleased to extend an offer of employment to you for the position of <strong>${data.jobTitle}</strong> with the United Nations Economic Development Foundation (UNEDF).</p>
+            <p>We are pleased to extend an offer of employment to you for the position of <strong>${data.jobTitle}</strong> with the United Nations Development Programme (UNDP).</p>
           </div>
 
           <p>
@@ -504,11 +504,11 @@ export function generateOfferLetterHTML(data: OfferLetterData, isSigned: boolean
         <section>
           <h2>CONDITIONS OF APPOINTMENT</h2>
           <p>
-            Your employment with UNEDF is on the following basis:
+            Your employment with UNDP is on the following basis:
           </p>
           <ul>
             <li><strong>Probation Period:</strong> A probation period of 3 months applies, during which either party may terminate the appointment with one week's written notice.</li>
-            <li><strong>Code of Conduct:</strong> You must adhere to the UNEDF Code of Conduct and UN Staff Rules and Regulations.</li>
+            <li><strong>Code of Conduct:</strong> You must adhere to the UNDP Code of Conduct and UN Staff Rules and Regulations.</li>
             <li><strong>Confidentiality:</strong> All information obtained during employment must be treated as confidential.</li>
             <li><strong>Conflict of Interest:</strong> You must declare any conflict of interest and comply with UN conflict resolution procedures.</li>
             <li><strong>Notice Period:</strong> After the probation period, either party must provide 30 days' written notice for termination.</li>
